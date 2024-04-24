@@ -152,8 +152,7 @@ public class MathController {
 	 *
 	 * @throws Exception If any other exception occurs.
 	 */
-	@RequestMapping(value = "/sqrt/{numberOne}", /* */
-			method = RequestMethod.GET)
+	@RequestMapping(value = "/sqrt/{numberOne}", method = RequestMethod.GET)
 	public BigDecimal sqrt(/* */
 			@PathVariable(value = "numberOne") String numberOne) throws Exception {
 
