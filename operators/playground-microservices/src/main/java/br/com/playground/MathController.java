@@ -63,7 +63,7 @@ public class MathController {
 				|| (!StringUtils.hasText(numberTwo) || !numberTwo.matches("\\d+(\\.\\d+)?"))) {
 			throw new UnsupportedMathOperationException("Please set a numeric value");
 		}
-		
+
 		return new BigDecimal(numberOne)/* */
 				.subtract(new BigDecimal(numberTwo)).setScale(2, RoundingMode.HALF_UP);
 	}
