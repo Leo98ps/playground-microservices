@@ -3,11 +3,6 @@ package br.com.playground;
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Objects;
-import java.util.stream.Stream;
 
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PathVariable;
