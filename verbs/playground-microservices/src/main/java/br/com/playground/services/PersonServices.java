@@ -20,7 +20,7 @@ public class PersonServices {
 	 * Autowired {@code personRepository}.
 	 */
 	@Autowired
-	public PersonRepository repository;
+	private PersonRepository repository;
 
 	private Logger logger = Logger.getLogger(PersonServices.class.getName());
 
