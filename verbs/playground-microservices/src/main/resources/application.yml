@@ -1,0 +1,12 @@
+spring:
+  datasource:
+      driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://localhost:5432/playground_database?useTimezone=true&serverTimezone=UTC
+      username: postgres
+      password: chinchila
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      show-sql: false
